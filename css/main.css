@@ -10,8 +10,78 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+
+  font: normal 100%/1.3 'Playfair Display', serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+.icon-left {
+  width: 40px;
+  float: left;
+  margin-top: .7em;
+}
+
+.icon-right {
+  width: 40px;
+  float: right;
+  margin-top: .7rem;
+}
+
+h1 {
+  color: #fff;
+  background-color: #d05c2e;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: .5em;
+  font-size: 2rem;
+}
+
+header nav ul li {
+  background-color: #d05c2e;
+  text-align: center;
+  list-style-type: none;
+  float: left;
+  width: 33.333%;
+  padding: .4rem 0;
+  border-bottom: 1px solid #a63f38;
+}
+
+header li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+
+header a:hover {
+  background-color: #a63f38;
+}
+
+header ul li:first-child {
+  border-right: 1px solid #a63f38;
+}
+
+header ul li:last-child {
+  border-left: 1px solid #a63f38;
+}
+
+header ul {
+  margin: 0;
+  padding-left: 0;
+  border-top: 1px solid #a63f38;
+}
+
+.about div img {
+  width: 100%;
 }
