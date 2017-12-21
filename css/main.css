@@ -22,6 +22,10 @@ body {
   margin: 0;
 }
 
+main {
+  margin: 2rem;
+}
+
 figure {
   margin: 0;
 }
@@ -40,7 +44,7 @@ figure {
 
 h1 {
   color: #fff;
-  background-color: #d05c2e;
+  background-color: #663311;
   width: 100%;
   text-align: center;
   margin: 0;
@@ -49,13 +53,13 @@ h1 {
 }
 
 header nav ul li {
-  background-color: #d05c2e;
+  background-color: #663311;
   text-align: center;
   list-style-type: none;
   float: left;
   width: 33.333%;
   padding: .4rem 0;
-  border-bottom: 1px solid #a63f38;
+  border-bottom: 1px solid black;
 }
 
 header li a {
@@ -65,23 +69,56 @@ header li a {
 }
 
 header a:hover {
-  background-color: #a63f38;
+  background-color: black;
 }
 
 header ul li:first-child {
-  border-right: 1px solid #a63f38;
+  border-right: 1px solid black;
 }
 
 header ul li:last-child {
-  border-left: 1px solid #a63f38;
+  border-left: 1px solid black;
 }
 
 header ul {
   margin: 0;
   padding-left: 0;
-  border-top: 1px solid #a63f38;
+  border-top: 1px solid black;
 }
 
-.about div img {
-  width: 100%;
+.about figure img {
+  width: 50%;
+  display: block;
+  margin: 0 auto 0;
+}
+
+.about figure {
+  text-align: center;
+}
+
+.about figcaption {
+  font-style: italic;
+}
+
+.about figcaption p {
+  margin: 0;
+}
+
+.about {
+  margin: 3rem 0 0;
+}
+
+.about-content {
+  width: 50%;
+  display: block;
+  margin: 0 auto 0;
+  margin-top: 1em;
+  background-color: #663311;
+  color: #fff;
+  padding: .5em 1em;
+  border-radius: 4px;
+}
+
+.about-content p {
+  margin-top: 0;
 }
