@@ -138,3 +138,59 @@ header ul {
   background-color: #fff;
   color: black;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.flavours img {
+  width: 100%;
+  display: block;
+}
+
+.card {
+  max-width: 100px;
+  width: 100px;
+  margin: .8rem auto 1.5rem;
+}
+
+.tango-mango {
+  background-color: #663311;
+  border-left: 1px solid #fff;
+  float: left;
+  width: 25%;
+}
+
+.passionate-rose {
+  background-color: #663311;
+  border-left: 1px solid #fff;
+  float: left;
+  width: 25%;
+}
+
+.classic-truffle {
+  background-color: #663311;
+  border-left: 1px solid #fff;
+  float: left;
+  width: 25%;
+}
+
+li strong {
+  padding: 0 0 0 .75rem;
+  color: #fff;
+}
+
+dt {
+  margin: 0 0 0 .75rem;
+  color: #fff;
+}
+
+dd {
+  margin: 0 0 0 .75rem;
+  color: #fff;
+}
