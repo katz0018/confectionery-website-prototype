@@ -87,7 +87,7 @@ header ul {
 }
 
 .about figure img {
-  width: 50%;
+  width: 100%;
   display: block;
   margin: 0 auto 0;
 }
@@ -105,20 +105,36 @@ header ul {
 }
 
 .about {
-  margin: 3rem 0 0;
+  background-color: #663311;
+  color: #fff;
+  border-radius: 8px;
 }
 
 .about-content {
   width: 50%;
   display: block;
   margin: 0 auto 0;
-  margin-top: 1em;
-  background-color: #663311;
-  color: #fff;
-  padding: .5em 1em;
-  border-radius: 4px;
 }
 
 .about-content p {
   margin-top: 0;
+}
+
+.about .locate a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.about .locate {
+  background-color: black;
+  width: 10em;
+  padding: .8em;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 22em 1em;
+}
+
+.about .locate a:hover {
+  background-color: #fff;
+  color: black;
 }
