@@ -46,20 +46,20 @@ h1 {
   color: #fff;
   background-color: #663311;
   width: 100%;
-  text-align: center;
   margin: 0;
   padding: .5em;
   font-size: 2rem;
 }
 
 header nav ul li {
-  background-color: #663311;
-  text-align: center;
-  list-style-type: none;
+  display: block;
   float: left;
-  width: 33.333%;
-  padding: .4rem 0;
-  border-bottom: 1px solid black;
+  list-style-type: none;
+  background-color: #663311;
+  padding: .5em  .75em;
+  line-height: 1.5;
+  width: 33.3333%;
+  text-align: center;
 }
 
 header li a {
@@ -81,9 +81,13 @@ header ul li:last-child {
 }
 
 header ul {
-  margin: 0;
+  margin: 0 0 3em;
   padding-left: 0;
   border-top: 1px solid black;
+}
+
+.about h2 {
+  text-align: center;
 }
 
 .about figure img {
@@ -111,7 +115,7 @@ header ul {
 }
 
 .about-content {
-  width: 50%;
+  width: 80%;
   display: block;
   margin: 0 auto 0;
 }
@@ -123,74 +127,31 @@ header ul {
 .about .locate a {
   color: #fff;
   text-decoration: none;
+  background-color: black;
+  border-radius: 5px;
+  padding: .5em 3em;
 }
 
 .about .locate {
-  background-color: black;
-  width: 10em;
-  padding: .8em;
-  border-radius: 5px;
   text-align: center;
-  margin: 0 22em 1em;
+  margin: 0 0 3em;
+  padding: 2em;
 }
 
-.about .locate a:hover {
+.about a:hover {
   background-color: #fff;
-  color: black;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
+  color: #663311;
 }
 
 li {
   list-style-type: none;
 }
 
+div h3 {
+  text-align: center;
+}
+
 .flavours img {
   width: 100%;
   display: block;
-}
-
-.card {
-  max-width: 100px;
-  width: 100px;
-  margin: .8rem auto 1.5rem;
-}
-
-.tango-mango {
-  background-color: #663311;
-  border-left: 1px solid #fff;
-  float: left;
-  width: 25%;
-}
-
-.passionate-rose {
-  background-color: #663311;
-  border-left: 1px solid #fff;
-  float: left;
-  width: 25%;
-}
-
-.classic-truffle {
-  background-color: #663311;
-  border-left: 1px solid #fff;
-  float: left;
-  width: 25%;
-}
-
-li strong {
-  padding: 0 0 0 .75rem;
-  color: #fff;
-}
-
-dt {
-  margin: 0 0 0 .75rem;
-  color: #fff;
-}
-
-dd {
-  margin: 0 0 0 .75rem;
-  color: #fff;
 }
