@@ -169,6 +169,8 @@ main div h2 {
 main ul li {
   background-color: #663311;
   display: block;
+  color: #fff;
+  padding: .5em;
 }
 
 main ul {
