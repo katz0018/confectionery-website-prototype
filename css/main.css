@@ -49,6 +49,7 @@ h1 {
   margin: 0;
   padding: .5em;
   font-size: 2rem;
+  text-align: center;
 }
 
 header nav ul li {
@@ -84,6 +85,11 @@ header ul {
   margin: 0 0 3em;
   padding-left: 0;
   border-top: 1px solid black;
+}
+
+.brand h2 {
+  text-align: center;
+  margin-bottom: 0;
 }
 
 .about h2 {
@@ -154,4 +160,17 @@ div h3 {
 .flavours img {
   width: 100%;
   display: block;
+}
+
+main div h2 {
+  text-align: center;
+}
+
+main ul li {
+  background-color: #663311;
+  display: block;
+}
+
+main ul {
+  padding: 0;
 }
