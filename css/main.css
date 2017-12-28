@@ -171,8 +171,25 @@ main ul li {
   display: block;
   color: #fff;
   padding: .5em;
+  margin: .5em;
 }
 
 main ul {
   padding: 0;
+}
+
+.recipe h2 {
+  text-align: center;
+}
+
+.recipe ol {
+  padding-left: 0;
+}
+
+.img-flex {
+  width: 100%;
+}
+
+footer img {
+  width: 25%;
 }
