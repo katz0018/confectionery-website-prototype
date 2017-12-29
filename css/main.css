@@ -43,6 +43,7 @@ figure {
 }
 
 h1 {
+  font-family: 'Great Vibes', cursive;
   color: #fff;
   background-color: #663311;
   width: 100%;
@@ -97,12 +98,13 @@ header ul {
 }
 
 .brand h2 {
+  font-family: 'Great Vibes', cursive;
   text-align: center;
   margin-bottom: 0;
   background-color: rgba(0, 0, 0, .6);
   color: #fff;
   position: absolute;
-  bottom: 22em;
+  bottom: 24em;
   left: 1.5em;
   width: 73%;
   border-radius: 4px;
@@ -111,6 +113,7 @@ header ul {
 
 .about h2 {
   text-align: center;
+  font-family: 'Great Vibes', cursive;
 }
 
 .about figure img {
@@ -172,6 +175,7 @@ li {
 
 div h3 {
   text-align: center;
+  font-family: 'Great Vibes', cursive;
 }
 
 .flavours img {
@@ -181,6 +185,7 @@ div h3 {
 
 main div h2 {
   text-align: center;
+  font-family: 'Great Vibes', cursive;
 }
 
 main ul li {
@@ -188,6 +193,10 @@ main ul li {
   display: block;
   color: #fff;
   margin: .5em;
+  border-radius: 5px;
+}
+
+main ul li h3, main ul li p {
   padding: .5em;
 }
 
@@ -196,7 +205,9 @@ main ul {
 }
 
 .recipe h2 {
+  margin-top: 1em;
   text-align: center;
+  font-family: 'Great Vibes', cursive;
 }
 
 .recipe ol {
