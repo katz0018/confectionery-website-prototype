@@ -171,10 +171,10 @@ header ul {
 
 li {
   list-style-type: none;
+  display: inline-block;
 }
 
-div h3 {
-  text-align: center;
+div h2 {
   font-family: 'Great Vibes', cursive;
 }
 
@@ -249,14 +249,52 @@ footer img {
   }
 
  .brand h2 {
-   left: 2.5em;
+  left: 2.5em;
+  bottom: 20em;
  }
 
- main ul li {
-   display: inline-block;
-   width: 50%;
-   float: left;
+ .brand div:first-child {
+   overflow: hidden;
+   height: 400px;
  }
+
+  main ul li {
+  display: inline-block;
+  width: 30%;
+  float: left;
+  min-height: 18em;
+ }
+
+  .recipe h2 {
+   clear: both;
+ }
+
+  .flavours li h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+
+  .flavours li p {
+   margin: 0;
+   }
+
+  .img-flex {
+    width: 40%;
+  }
+
+  .recipe div {
+    width: 57%;
+    display: block;
+    float: right;
+  }
+
+  .recipe div h3 {
+    margin: 0;
+  }
+
+  .recipe div p {
+    margin: 0;
+  }
 
 }
 @media only screen and (min-width: 60em) {
