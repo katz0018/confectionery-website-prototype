@@ -304,6 +304,59 @@ footer img {
     line-height: 1.5;
   }
 
+  .brand h2 {
+    left: 3em;
+    bottom: 18em;
+  }
+
+  main {
+    margin: 0;
+  }
+
+  .about figure {
+    overflow: hidden;
+    height: 415px;
+  }
+
+  .about {
+    position: relative;
+  }
+
+  .about-content {
+    position: absolute;
+    padding: 1em;
+    bottom: 1.5em;
+    left: 6em;
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 4px;
+  }
+
+  .about .locate {
+    margin: 0;
+    padding: 0;
+  }
+
+  .flavours ul {
+    margin-left: 2em;
+  }
+
+  main ul li {
+  width: 30%;
+  min-height: 20em;
+ }
+
+ .recipe ol li {
+  width: 50%;
+  float: left;
+ }
+
+ .recipe ol {
+   padding: 1em;
+ }
+
+  .recipe ol li p {
+    padding-right: 1em;
+  }
 }
 @media only screen and (min-width: 90em) {
 
