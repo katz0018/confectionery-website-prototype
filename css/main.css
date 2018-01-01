@@ -223,7 +223,38 @@ main ul {
 }
 
 footer img {
-  width: 25%;
+  width: 25px;
+}
+
+footer ul {
+  margin: 0;
+  padding-left: 0;
+  text-align: center;
+}
+
+footer p {
+  color: #fff;
+}
+
+footer {
+  background-color: #661111;
+  text-align: center;
+}
+
+.sale img {
+  width: 100%;
+}
+
+.sale h2 {
+  position: absolute;
+  bottom: 6.8em;
+  left: 3.5em;
+  z-index: 3000;
+  font-size: 3rem;
+}
+
+.sale .present {
+  position: relative;
 }
 
 @media only screen and (min-width: 25em) {
