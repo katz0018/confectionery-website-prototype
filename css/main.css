@@ -22,10 +22,6 @@ body {
   margin: 0;
 }
 
-main {
-  margin: 2rem;
-}
-
 figure {
   margin: 0;
 }
@@ -42,6 +38,10 @@ figure {
   margin-top: .7rem;
 }
 
+section {
+  margin: 2rem;
+}
+
 h1 {
   font-family: 'Great Vibes', cursive;
   color: #fff;
@@ -51,6 +51,10 @@ h1 {
   padding: .5em;
   font-size: 2rem;
   text-align: center;
+}
+
+header nav ul {
+  border-top: solid 2px black;
 }
 
 header nav ul li {
@@ -75,11 +79,11 @@ header li:hover {
 }
 
 header ul li:first-child {
-  border-right: 1px solid black;
+  border-right: 2px solid black;
 }
 
 header ul li:last-child {
-  border-left: 1px solid black;
+  border-left: 2px solid black;
 }
 
 header ul {
@@ -93,22 +97,26 @@ header ul {
   overflow: hidden;
 }
 
-.brand div {
+.brand {
   position: relative;
 }
 
 .brand h2 {
   font-family: 'Great Vibes', cursive;
   text-align: center;
-  margin-bottom: 0;
+  margin: 0;
   background-color: rgba(0, 0, 0, .6);
   color: #fff;
-  position: absolute;
-  bottom: 24em;
-  left: 1.5em;
-  width: 73%;
-  border-radius: 4px;
+  border-radius: 50%;
   padding: 1em;
+}
+
+.brand .banner-content {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 100%;
 }
 
 .about h2 {
@@ -138,6 +146,7 @@ header ul {
   background-color: #663311;
   color: #fff;
   border-radius: 8px;
+  border: solid 3px black;
 }
 
 .about-content {
@@ -169,13 +178,67 @@ header ul {
   color: #663311;
 }
 
-li {
+footer li {
   list-style-type: none;
   display: inline-block;
 }
 
 div h2 {
   font-family: 'Great Vibes', cursive;
+}
+
+.flavours div h2 {
+  margin-top: 2em;
+}
+
+.sale {
+  margin: 0;
+}
+.sale img {
+  width: 100%;
+}
+
+.sale .locate {
+  text-decoration: none;
+  text-decoration: none;
+  background-color: black;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.sale a:hover {
+  color: black;
+  background-color: #fff;
+}
+
+.sale-strong {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 7em;
+  font-size: 2rem;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.sale h2 {
+  background-color: rgba(0, 0, 0, .6);
+  padding: .5em;
+  border-radius: 100%;
+  margin: 0;
+}
+
+.present {
+  position: relative;
+}
+
+.sale h2 {
+  font-size: 2rem;
+  line-height: 1.3rem;
 }
 
 .flavours img {
@@ -194,6 +257,7 @@ main ul li {
   color: #fff;
   margin: .5em;
   border-radius: 5px;
+  border: 2px solid black;
 }
 
 main ul li h3, main ul li p {
@@ -215,6 +279,15 @@ main ul {
   padding-left: 0;
 }
 
+.recipe ol li {
+  list-style-type: none;
+}
+
+.recipe a:hover {
+  color: red;
+}
+
+
 .img-flex {
   width: 100%;
 }
@@ -234,33 +307,12 @@ footer ul {
 
 footer p {
   color: #fff;
+  margin: 0;
 }
 
 footer {
   background-color: #661111;
   text-align: center;
-}
-
-.sale img {
-  width: 100%;
-}
-
-.sale-strong {
-  position: absolute;
-  bottom: 6.8em;
-  left: 3.5em;
-  z-index: 3000;
-  font-size: 3rem;
-  margin: 0;
-}
-
-.present {
-  position: relative;
-}
-
-.sale h2 strong {
-  font-size: 5rem;
-  line-height: 1rem;
 }
 
 @media only screen and (min-width: 25em) {
@@ -271,7 +323,7 @@ footer {
   }
 
   .brand h2 {
-    width: 81%;
+    font-size: 3rem;
   }
 }
 @media only screen and (min-width: 38em) {
@@ -281,13 +333,8 @@ footer {
     line-height: 1.4;
   }
 
-  main {
-    margin: 1em;
-  }
-
-  .brand h2 {
-    left: 2.5em;
-    bottom: 20em;
+  .brand .banner-content {
+    width: 76%;
   }
 
   .brand div:first-child {
@@ -298,6 +345,11 @@ footer {
   main ul li {
     display: inline-block;
     width: 29%;
+  }
+
+  .sale h2 {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .recipe h2 {
@@ -358,9 +410,10 @@ footer {
 
   .about-content {
     position: absolute;
+    transform: translate(-50%,-50%);
     padding: 1em;
-    bottom: 1.5em;
-    left: 6em;
+    top: 50%;
+    left: 50%;
     background-color: rgba(0, 0, 0, .6);
     border-radius: 4px;
   }
@@ -379,8 +432,20 @@ footer {
     min-height: 20em;
   }
 
+  .recipe {
+    margin: 0;
+  }
+
   .recipe ol li {
     width: 50%;
+    padding: 0 1em 0;
+    float: left;
+    list-style: none;
+    min-height: 10em;
+  }
+
+  footer {
+    clear: both;
   }
 
   .recipe ol {
@@ -390,11 +455,29 @@ footer {
   .recipe ol li p {
     padding-right: 1em;
   }
+
+  .sale-strong {
+    width: 12em;
+  }
 }
 @media only screen and (min-width: 90em) {
 
   html {
     font-size: 130%;
  }
+
+  header .icon-right , .icon-left {
+    width: 70px;
+  }
+
+  .brand {
+    height: 500px;
+    overflow: hidden;
+  }
+
+  .present {
+    height: 500px;
+    overflow: hidden;
+  }
 
 }
