@@ -165,6 +165,10 @@ main div h2 {
   font-family: 'Great Vibes', cursive;
 }
 
+footer img {
+  width: 25px;
+}
+
 .sale img {
   width: 100%;
 }
@@ -172,10 +176,6 @@ main div h2 {
 .flavours img {
   width: 100%;
   display: block;
-}
-
-footer img {
-  width: 25px;
 }
 
 .about figure img {
@@ -197,12 +197,12 @@ footer p {
   margin: 0;
 }
 
-.about-content p {
-  margin-top: 0;
-}
-
 main ul li h3, main ul li p {
   padding: .5em;
+}
+
+.about-content p {
+  margin-top: 0;
 }
 
 .about figcaption p {
@@ -251,6 +251,8 @@ main ul li h3, main ul li p {
   border-radius: 100%;
   margin: 0;
   border: dotted 5px #fff;
+  font-size: 2rem;
+  line-height: 1.3rem;
 }
 
 .recipe h2 {
@@ -258,6 +260,10 @@ main ul li h3, main ul li p {
   margin-bottom: 1em;
   text-align: center;
   font-family: 'Great Vibes', cursive;
+  font-size: 2rem;
+}
+
+.flavours h2 {
   font-size: 2rem;
 }
 
@@ -297,15 +303,6 @@ main ul li h3, main ul li p {
 
 .present {
   position: relative;
-}
-
-.sale h2 {
-  font-size: 2rem;
-  line-height: 1.3rem;
-}
-
-.flavours h2 {
-  font-size: 2rem;
 }
 
 .recipe ol {
