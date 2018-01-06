@@ -369,6 +369,7 @@ footer {
   .sale h2 {
     font-size: 3rem;
     line-height: 1;
+    padding: .5em;
   }
 
   .recipe h2 {
@@ -437,13 +438,13 @@ footer {
     padding: 0;
   }
 
-  .flavours ul {
-    margin-left: 2em;
-  }
-
   main ul li {
     width: 30%;
-    min-height: 20em;
+    min-height: 16em;
+  }
+
+  main ul {
+    text-align: center;
   }
 
   .recipe {
@@ -456,6 +457,15 @@ footer {
     float: left;
     list-style: none;
     min-height: 10em;
+  }
+
+  .sale h2 {
+    font-size: 3rem;
+    padding: 1em;
+  }
+
+  main ul li {
+    width: 19%;
   }
 
   footer {
