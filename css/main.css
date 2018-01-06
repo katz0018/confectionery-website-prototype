@@ -439,7 +439,7 @@ footer {
   }
 
   main ul li {
-    width: 30%;
+    width: 19%;
     min-height: 16em;
   }
 
@@ -462,10 +462,6 @@ footer {
   .sale h2 {
     font-size: 3rem;
     padding: 1em;
-  }
-
-  main ul li {
-    width: 19%;
   }
 
   footer {
