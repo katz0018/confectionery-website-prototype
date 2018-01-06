@@ -45,7 +45,7 @@ section {
 h1 {
   font-family: 'Great Vibes', cursive;
   color: #fff;
-  background-color: #663311;
+  background-color: #631;
   width: 100%;
   margin: 0;
   padding: .5em;
@@ -53,15 +53,44 @@ h1 {
   text-align: center;
 }
 
+header ul {
+  margin: 0 0 3em;
+  padding-left: 0;
+  border-top: 1px solid black;
+}
+
+main ul {
+  padding: 0;
+}
+
+footer ul {
+  padding-left: 0;
+  text-align: center;
+}
+
 header nav ul {
   border-top: solid 2px black;
+}
+
+footer li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+main ul li {
+  background-color: #631;
+  display: block;
+  color: #fff;
+  margin: .5em;
+  border-radius: 5px;
+  border: 2px solid black;
 }
 
 header nav ul li {
   display: block;
   float: left;
   list-style-type: none;
-  background-color: #663311;
+  background-color: #631;
   padding: .5em  .75em;
   line-height: 1.5;
   width: 33.3333%;
@@ -78,6 +107,10 @@ header li:hover {
   background-color: black;
 }
 
+.recipe ol li {
+  list-style-type: none;
+}
+
 header ul li:first-child {
   border-right: 2px solid black;
 }
@@ -86,10 +119,8 @@ header ul li:last-child {
   border-left: 2px solid black;
 }
 
-header ul {
-  margin: 0 0 3em;
-  padding-left: 0;
-  border-top: 1px solid black;
+.img-flex {
+  width: 100%;
 }
 
 .brand .img-flex {
@@ -101,6 +132,15 @@ header ul {
   position: relative;
 }
 
+div h2 {
+  font-family: 'Great Vibes', cursive;
+}
+
+main div h2 {
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+}
+
 .brand h2 {
   font-family: 'Great Vibes', cursive;
   text-align: center;
@@ -109,6 +149,7 @@ header ul {
   color: #fff;
   border-radius: 50%;
   padding: 1em;
+  border: dotted 5px #fff;
 }
 
 .brand .banner-content {
@@ -124,10 +165,23 @@ header ul {
   font-family: 'Great Vibes', cursive;
 }
 
+.sale img {
+  width: 100%;
+}
+
+.flavours img {
+  width: 100%;
+  display: block;
+}
+
+footer img {
+  width: 25px;
+}
+
 .about figure img {
   width: 100%;
   display: block;
-  margin: 0 auto 0;
+  margin: 0 auto;
 }
 
 .about figure {
@@ -138,12 +192,25 @@ header ul {
   font-style: italic;
 }
 
+footer p {
+  color: #fff;
+  margin: 0;
+}
+
+.about-content p {
+  margin-top: 0;
+}
+
+main ul li h3, main ul li p {
+  padding: .5em;
+}
+
 .about figcaption p {
   margin: 0;
 }
 
 .about {
-  background-color: #663311;
+  background-color: #631;
   color: #fff;
   border-radius: 8px;
   border: solid 3px black;
@@ -152,11 +219,11 @@ header ul {
 .about-content {
   width: 80%;
   display: block;
-  margin: 0 auto 0;
+  margin: 0 auto;
 }
 
-.about-content p {
-  margin-top: 0;
+.recipe a {
+  text-decoration: none;
 }
 
 .about .locate a {
@@ -175,16 +242,23 @@ header ul {
 
 .about a:hover {
   background-color: #fff;
-  color: #663311;
+  color: #631;
 }
 
-footer li {
-  list-style-type: none;
-  display: inline-block;
+.sale h2 {
+  background-color: rgba(0, 0, 0, .6);
+  padding: 1em;
+  border-radius: 100%;
+  margin: 0;
+  border: dotted 5px #fff;
 }
 
-div h2 {
+.recipe h2 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  text-align: center;
   font-family: 'Great Vibes', cursive;
+  font-size: 2rem;
 }
 
 .flavours div h2 {
@@ -194,12 +268,8 @@ div h2 {
 .sale {
   margin: 0;
 }
-.sale img {
-  width: 100%;
-}
 
 .sale .locate {
-  text-decoration: none;
   text-decoration: none;
   background-color: black;
   border-radius: 5px;
@@ -225,13 +295,6 @@ div h2 {
   text-align: center;
 }
 
-.sale h2 {
-  background-color: rgba(0, 0, 0, .6);
-  padding: .5em;
-  border-radius: 100%;
-  margin: 0;
-}
-
 .present {
   position: relative;
 }
@@ -241,80 +304,24 @@ div h2 {
   line-height: 1.3rem;
 }
 
-.flavours img {
-  width: 100%;
-  display: block;
-}
-
-main div h2 {
-  text-align: center;
-  font-family: 'Great Vibes', cursive;
-}
-
-main ul li {
-  background-color: #663311;
-  display: block;
-  color: #fff;
-  margin: .5em;
-  border-radius: 5px;
-  border: 2px solid black;
-}
-
-main ul li h3, main ul li p {
-  padding: .5em;
-}
-
-main ul {
-  padding: 0;
-}
-
-.recipe h2 {
-  margin-top: 2em;
-  margin-bottom: 1em;
-  text-align: center;
-  font-family: 'Great Vibes', cursive;
+.flavours h2 {
+  font-size: 2rem;
 }
 
 .recipe ol {
   padding-left: 0;
 }
 
-.recipe ol li {
-  list-style-type: none;
-}
-
 .recipe a:hover {
   color: red;
-}
-
-.recipe a {
-  text-decoration: none;
-}
-
-.img-flex {
-  width: 100%;
 }
 
 .bonbon {
   width: 100%;
 }
 
-footer img {
-  width: 25px;
-}
-
-footer ul {
-  padding-left: 0;
-  text-align: center;
-}
-
-footer p {
-  color: #fff;
-  margin: 0;
-}
-
 footer {
-  background-color: #661111;
+  background-color: #611;
   text-align: center;
 }
 
@@ -328,6 +335,11 @@ footer {
   .brand h2 {
     font-size: 3rem;
   }
+
+  .sale .present {
+    overflow: hidden;
+    height: 500px;
+  }
 }
 @media only screen and (min-width: 38em) {
 
@@ -338,6 +350,12 @@ footer {
 
   .brand .banner-content {
     width: 76%;
+  }
+
+  .recipe div {
+    width: 57%;
+    display: block;
+    float: right;
   }
 
   .brand div:first-child {
@@ -370,12 +388,6 @@ footer {
 
   .img-flex {
     width: 40%;
-  }
-
-  .recipe div {
-    width: 57%;
-    display: block;
-    float: right;
   }
 
   .recipe div h3 {
@@ -441,7 +453,7 @@ footer {
 
   .recipe ol li {
     width: 50%;
-    padding: 0 1em 0;
+    padding: 0 1em;
     float: left;
     list-style: none;
     min-height: 10em;
