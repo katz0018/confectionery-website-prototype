@@ -54,9 +54,8 @@ h1 {
 }
 
 header ul {
-  margin: 0 0 3em;
-  padding-left: 0;
-  border-top: 2px solid black;
+  padding: 0;
+  margin: 0;
 }
 
 main ul {
@@ -94,10 +93,11 @@ header li a {
   font-size: 1.125rem;
   padding: .5em  .75em;
   background-color: #631;
-  width: 33.3333%;
+  width: 33.333%;
   display: block;
   float: left;
   line-height: 1.5;
+  border: 2px solid black;
 }
 
 .recipe a {
