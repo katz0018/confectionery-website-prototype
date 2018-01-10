@@ -103,7 +103,11 @@ header li a {
   font-size: 1.125rem;
 }
 
-header li:hover {
+.recipe a {
+  text-decoration: none;
+}
+
+header li a:hover {
   background-color: black;
 }
 
@@ -220,10 +224,6 @@ main ul li h3, main ul li p {
   width: 80%;
   display: block;
   margin: 0 auto;
-}
-
-.recipe a {
-  text-decoration: none;
 }
 
 .about .locate a {
