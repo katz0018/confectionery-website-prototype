@@ -56,6 +56,7 @@ h1 {
 header ul {
   padding: 0;
   margin: 0;
+  height: 49px;
 }
 
 main ul {
@@ -74,7 +75,7 @@ footer li {
 
 main ul li {
   background-color: #631;
-  display: block;
+  display: inline-block;
   color: #fff;
   margin: .5em;
   border-radius: 5px;
@@ -84,6 +85,14 @@ header nav li {
   text-align: center;
   list-style-type: none;
   width: 33.333%;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  float:left;
+}
+
+nav li:first-child {
+  border-left: 2px solid black;
 }
 
 header a {
@@ -94,7 +103,6 @@ header a {
   background-color: #631;
   display: block;
   line-height: 1.5;
-  border: 2px solid black;
 }
 
 .recipe a {
@@ -347,6 +355,10 @@ footer {
     height: 400px;
   }
 
+  header ul {
+    height: 53px;
+  }
+
   main ul li {
     display: inline-block;
     width: 29%;
@@ -429,6 +441,10 @@ footer {
     min-height: 16em;
   }
 
+  header ul {
+    height: 58px;
+  }
+
   main ul {
     text-align: center;
   }
@@ -486,6 +502,10 @@ footer {
 
   header .icon-right, .icon-left {
     width: 70px;
+  }
+
+  header ul {
+    height: 63px;
   }
 
 }
