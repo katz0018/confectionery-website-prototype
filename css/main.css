@@ -78,24 +78,21 @@ main ul li {
   color: #fff;
   margin: .5em;
   border-radius: 5px;
-  border: 2px solid black;
 }
 
-header nav ul li {
-
+header nav li {
   text-align: center;
   list-style-type: none;
+  width: 33.333%;
 }
 
-header li a {
+header a {
   color: #fff;
   text-decoration: none;
   font-size: 1.125rem;
   padding: .5em  .75em;
   background-color: #631;
-  width: 33.333%;
   display: block;
-  float: left;
   line-height: 1.5;
   border: 2px solid black;
 }
@@ -104,20 +101,12 @@ header li a {
   text-decoration: none;
 }
 
-header li a:hover {
+header ul a:hover {
   background-color: black;
 }
 
 .recipe ol li {
   list-style-type: none;
-}
-
-header ul li:first-child {
-  border-right: 2px solid black;
-}
-
-header ul li:last-child {
-  border-left: 2px solid black;
 }
 
 .img-flex {
@@ -214,7 +203,7 @@ main ul li h3, main ul li p {
   background-color: #631;
   color: #fff;
   border-radius: 8px;
-  border: solid 3px black;
+  border: solid 2px black;
 }
 
 .about-content {
