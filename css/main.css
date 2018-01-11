@@ -53,10 +53,18 @@ h1 {
   text-align: center;
 }
 
+header {
+  position: relative;
+}
+
+.banner {
+  position: absolute;
+}
+
 header ul {
   padding: 0;
   margin: 0;
-  height: 49px;
+  overflow: hidden;
 }
 
 main ul {
@@ -106,6 +114,8 @@ header a {
 }
 
 .recipe a {
+  display: block;
+  overflow: hidden;
   text-decoration: none;
 }
 
@@ -356,7 +366,7 @@ footer {
   }
 
   header ul {
-    height: 53px;
+    overflow: hidden;
   }
 
   main ul li {
@@ -441,10 +451,6 @@ footer {
     min-height: 16em;
   }
 
-  header ul {
-    height: 58px;
-  }
-
   main ul {
     text-align: center;
   }
@@ -502,10 +508,6 @@ footer {
 
   header .icon-right, .icon-left {
     width: 70px;
-  }
-
-  header ul {
-    height: 63px;
   }
 
 }
